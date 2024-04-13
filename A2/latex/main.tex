@@ -114,26 +114,26 @@ F1 Score: 0.9625253215986614 \\
 
 % Add GridSearch
 Best Performance by GridSearch:\\
-Best parameters: \{`activation': `relu', `alpha': 0.01, `hidden\_layer\_sizes': (500,)\}\\
+Best parameters: \{`activation': `relu', `alpha': 0.001, `hidden\_layer\_sizes': (500,)\}\\
 Accuracy: 0.9741428571428571\\
 
 % \todo{Table}
 \clearpage
 \section{Grid Search Cross Validation}
 \begin{table}[htbp]
-  \centering
-  \rowcolors{2}{lightblu}{white}
-  \begin{tabular}{ll}
-    \rowcolor{blue}
-    \textbf{\textcolor{white}{Model}} & \textbf{\textcolor{white}{Accuracy}} \\
-    Decision Tree & 0.876 \\
-    Random Forest & 0.9676 \\
-    Bernoulli NB & 0.8353 \\
-    KNN & 0.9728 \\
-    Neural Network & 0.9741 \\
-  \end{tabular}
-  \caption{Model Comparison}
-  \label{tab:model_comparison}
+    \centering
+    \rowcolors{2}{lightblu}{white}
+    \begin{tabular}{ll}
+        \rowcolor{blue}
+        \textbf{\textcolor{white}{Model}} & \textbf{\textcolor{white}{Accuracy}} \\
+        Decision Tree                     & 0.876                                \\
+        Random Forest                     & 0.9676                               \\
+        Bernoulli NB                      & 0.8353                               \\
+        KNN                               & 0.9728                               \\
+        Neural Network                    & 0.9741                               \\
+    \end{tabular}
+    \caption{Model Comparison}
+    \label{tab:model_comparison}
 \end{table}
 
 \section{Glossary}
